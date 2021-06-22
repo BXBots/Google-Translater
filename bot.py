@@ -56,14 +56,13 @@ ABOUT_TEXT = """
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
-       [[
+       [
         InlineKeyboardButton("Channel 🇮🇳", url="https://t.me/BX_Botz"),
         InlineKeyboardButton("👥 Group", url="https://t.me/BxSupport")
         ],
         [InlineKeyboardButton("Help 🛠️", callback_data='help'),
          InlineKeyboardButton("Share📥", url="https://t.me/share/url?url=Hey%2C%20%0A%0AToday%20I%20just%20found%20a%20Google%20Translate%20Bot%20which%20supports%2040%2B%20Languages%20%F0%9F%98%87%0ABot%20Link%20%3A%20%40BXGoogleTranslatorBot")
         ]
-     )
         
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
