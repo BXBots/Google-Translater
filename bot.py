@@ -56,7 +56,7 @@ ABOUT_TEXT = """
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
-        [[
+       [[
         InlineKeyboardButton("Channel 🇮🇳", url="https://t.me/BX_Botz"),
         InlineKeyboardButton("Kazakh", callback_data="https://t.me/BxSupport")
         ],
