@@ -56,15 +56,26 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
-        ]]
-    )
+        InlineKeyboardButton("Mongolian", callback_data='mn'),
+        InlineKeyboardButton("Kazakh", callback_data='kk')
+        ],
+        [InlineKeyboardButton("Greek", callback_data='el'),
+         InlineKeyboardButton("French", callback_data='fr'),
+         InlineKeyboardButton("Russian", callback_data='ru')
+        ]
+     )
+        
 ABOUT_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Tutorial 📺', url='https://telegram.me/Deccan_Supportz')
-        ]]
-    )
-
+        InlineKeyboardButton("Mongolian", callback_data='mn'),
+        InlineKeyboardButton("Kazakh", callback_data='kk')
+        ],
+        [InlineKeyboardButton("Greek", callback_data='el'),
+         InlineKeyboardButton("French", callback_data='fr'),
+         InlineKeyboardButton("Russian", callback_data='ru')
+        ]
+     )
+        
 @Deccan.on_message(filters.private & filters.command(["start"]))
 async def start(bot, update):
     await update.reply_text(
