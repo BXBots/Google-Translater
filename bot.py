@@ -65,7 +65,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         ]
         
 ABOUT_BUTTONS = InlineKeyboardMarkup(
-        [[
+       [
         InlineKeyboardButton("Channel 🇮🇳", url="https://t.me/BX_Botz"),
         InlineKeyboardButton("👥 Group", url="https://t.me/BxSupport")
         ],
@@ -75,7 +75,7 @@ ABOUT_BUTTONS = InlineKeyboardMarkup(
      )
         
 HELP_BUTTONS = InlineKeyboardMarkup(
-        [[
+       [
         InlineKeyboardButton("Channel 🇮🇳", url="https://t.me/BX_Botz"),
         InlineKeyboardButton("👥 Group", url="https://t.me/BxSupport")
         ],
