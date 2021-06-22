@@ -32,7 +32,7 @@ I am Google Translater bot.
 
 Send me a text and I will translate it.
 
-This is a clone of @GTranslateDCBot.You can create a your own bot by watching a small tutorial 📺
+Made With ❤ By @BX_Botz
 """
 HELP_TEXT = """
 Follow these steps..
@@ -41,13 +41,14 @@ Follow these steps..
 
 ☛ Select the Language and I will translate it you!
 
-<b><u>Languages :-</u></b>
-English, Tamil, Telugu, Hindi, Kannada, Malayalam, Korean, Japanese, Chinese, Greek, French, Russian, Arabic, Spanish, Italian, Uzbek, Latin, Polish, Mongolian, Marathi, Khazak.
+Supports 40+ Languages
+
+Made With ❤ By @BX_Botz
 """
 ABOUT_TEXT = """
 ➠ **Bot : Google Translater Bot**
 
-➠ **Language :** Python3
+➠ **Language :** Python
 
 ➠ **Server :** Heroku
 
