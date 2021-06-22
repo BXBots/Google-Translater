@@ -23,7 +23,7 @@ English,  Tamil,  Telugu,  Hindi,  Kannada,  Malayalam,  Urdu,  Punjabi,  Spanis
 * `BOT_TOKEN` Your bot token from @BotFather
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/Google-Translate)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/BXBots/Google-Translater)
 
 ### Credits
 [Pyrogram](https://docs.pyrogram.org)
